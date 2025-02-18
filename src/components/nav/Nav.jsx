@@ -8,7 +8,7 @@ const Nav = () => {
   const redir = useNavigate();
   const [open,setOpen] = useState(false);
   return (
-   <nav className="relative">
+   <nav className="md:relative sticky top-0 left-0 z-50 ">
     <ul className="">
       <li className="h-[56px] hidden md:flex  lg:h-[49px] flexBetween ps-[85px] lg:ps-[208px] pe-0 lg:pe-[105px] bg-black dark:text-white text-black ">
         <h2 className="text-[24px]"> {nav.title} </h2>
