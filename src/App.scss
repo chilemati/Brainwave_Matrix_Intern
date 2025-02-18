@@ -1,0 +1,109 @@
+html{
+  scroll-behavior: smooth;
+}
+.myScrollBar{
+  &::-webkit-scrollbar {
+    display: inline-block;
+    background-color: transparent;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    height: 1px;
+    width: 4px;
+    border-radius: 100%;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: 2px; /* IE and Edge */
+  scrollbar-width: 2px; /* Firefox */
+}
+.myScrollBar2{
+  &::-webkit-scrollbar {
+    display: inline-block;
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #9fb9e3;
+    height: 1px;
+    width: 4px;
+    border-radius: 100%;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: 2px; /* IE and Edge */
+  scrollbar-width: 2px; /* Firefox */
+}
+
+@keyframes slideInKey {
+  0%   {
+    translate: 490px 0px;
+  }
+  100% {
+    translate: 0px 0px;
+    transition-property: translate;
+    transition-duration: 2s;
+    animation-direction: normal;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+  }
+}
+.slideIn{
+  animation: slideInKey 1s linear;
+}
+@keyframes slideOutKey {
+  0%   {
+    translate: 0px 0px;
+    transition-property: translate;
+    transition-duration: 2s;
+    animation-direction: alternate-reverse;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+  }
+  100% {
+    translate: 490px 0px;
+    
+  }
+}
+.slideOut{
+  animation: slideOutKey 1s linear;
+  // display: none;
+}
+
+@keyframes slideRightKey {
+  0%   {
+    translate: 0px 0px;
+  }
+  100% {
+    translate: 100px 0px;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    animation-direction: normal;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+  }
+}
+.slideRight{
+  animation: slideRightKey 0.5s linear;
+}
+@keyframes slideLeftKey {
+  0%   {
+    translate: 100px 0px;
+  }
+  100% {
+    translate: 0px 0px;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    animation-direction: normal;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+  }
+}
+.slideLeft{
+  animation: slideLeftKey 0.5s linear;
+}

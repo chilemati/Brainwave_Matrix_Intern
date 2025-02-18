@@ -1,0 +1,20 @@
+@import '../../scss/include';
+@import '../../scss/responsive';
+
+#Section1 {
+    .hero{
+        @include mobile{
+            @include bg("https://cms-imgp.jw-cdn.org/img/p/502000169/univ/art/502000169_univ_lss_lg.jpg")
+
+        }
+        @include tablet{
+            @include bg("https://cms-imgp.jw-cdn.org/img/p/502000169/univ/art/502000169_univ_pnr_lg.jpg")
+
+        }
+        @include desktop{
+            @include bg("https://cms-imgp.jw-cdn.org/img/p/502000169/univ/art/502000169_univ_pnr_lg.jpg")
+
+        }
+
+    }
+}

@@ -1,0 +1,746 @@
+{
+    "nav": {
+        "title": "Jehovah’s Witnesses",
+        "line1": {
+            "languages": {
+                "icon": "/languages.svg",
+                "text": "English"
+            },
+            "user": {
+                "icon": "/user.svg",
+                "text": "Log In"
+            },
+            "input": {
+                "icon": "/search.svg",
+                "placeholder": "search"
+            }
+        },
+        "line2": [
+            {
+                "text": "HOME",
+                "icon": "/home.jpg",
+                "to": "/"
+            },
+            {
+                "text": "BIBLE TEACHINGS",
+                "icon": "/openBible.jpg",
+                "to": "#"
+            },
+            {
+                "text": "LIBRARY",
+                "icon": "/library.jpg",
+                "to": "#"
+            },
+            {
+                "text": "NEWS",
+                "icon": "/web.jpg",
+                "to": "https://www.jw.org/en/news/"
+            },
+            {
+                "text": "ABOUT US",
+                "icon": "/about.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/"
+            }
+        ],
+        "mobile": {
+            "languages": "/languages.svg",
+            "search": "/search.svg",
+            "menu": "/menu.svg"
+        },
+        "mobileList": [
+            {
+                "text": "HOME",
+                "icon": "/home.jpg",
+                "to": "/",
+                "children": false,
+                "drop": false
+            },
+            {
+                "text": "BIBLE TEACHINGS",
+                "icon": "/openBible.jpg",
+                "to": "#",
+                "children": [
+                    {
+                        "icon": "/bibleq.jpg",
+                        "text": "bible questions answered",
+                        "to": "https://www.jw.org/en/bible-teachings/questions/"
+                    },
+                    {
+                        "icon": "/biblev.jpg",
+                        "text": "bible verses explained",
+                        "to": "https://www.jw.org/en/bible-teachings/bible-verses/"
+                    },
+                    {
+                        "icon": "/biblesc.jpg",
+                        "text": "bible study course",
+                        "to": "https://www.jw.org/en/bible-teachings/guided-bible-study-course/"
+                    },
+                    {
+                        "icon": "/biblet.jpg",
+                        "text": "bible study tools",
+                        "to": "https://www.jw.org/en/bible-teachings/bible-study-tools/"
+                    },
+                    {
+                        "icon": "/peace.jpg",
+                        "text": "peace & happiness",
+                        "to": "https://www.jw.org/en/bible-teachings/peace-happiness/"
+                    },
+                    {
+                        "icon": "/marriage.jpg",
+                        "text": "marriage & family",
+                        "to": "https://www.jw.org/en/bible-teachings/family/"
+                    },
+                    {
+                        "icon": "/teens.jpg",
+                        "text": "teens & young adults",
+                        "to": "https://www.jw.org/en/bible-teachings/teenagers/"
+                    },
+                    {
+                        "icon": "/children.jpg",
+                        "text": "children",
+                        "to": "https://www.jw.org/en/bible-teachings/children/"
+                    },
+                    {
+                        "icon": "/faith.jpg",
+                        "text": "faith in god",
+                        "to": "https://www.jw.org/en/bible-teachings/faith-in-god/"
+                    },
+                    {
+                        "icon": "/science.jpg",
+                        "text": "science & the bible",
+                        "to": ""
+                    },
+                    {
+                        "icon": "/history.jpg",
+                        "text": "history & the bible",
+                        "to": "https://www.jw.org/en/bible-teachings/history/"
+                    }
+                ],
+                "drop":false
+            },
+            {
+                "text": "LIBRARY",
+                "icon": "/library.jpg",
+                "to": "#",
+                "children": [
+                    {
+                        "text": "bibles",
+                        "icon": "/bibles.jpg",
+                        "to": "https://www.jw.org/en/library/bible/"
+                    },
+                    {
+                        "text": "magazines",
+                        "icon": "/magazines.jpg",
+                        "to": "https://www.jw.org/en/library/magazines/"
+                    },
+                    {
+                        "text": "books & brochure",
+                        "icon": "/brochure.jpg",
+                        "to": "https://www.jw.org/en/library/books/"
+                    },
+                    {
+                        "text": "article series",
+                        "icon": "/article.jpg",
+                        "to": "https://www.jw.org/en/library/series/"
+                    },
+                    {
+                        "text": "meeting workbooks",
+                        "icon": "/meeting.jpg",
+                        "to": "https://www.jw.org/en/library/jw-meeting-workbook/"
+                    },
+                    {
+                        "text": "guildlines",
+                        "icon": "guildlines.jpg",
+                        "to": "https://www.jw.org/en/library/guidelines/"
+                    },
+                    {
+                        "text": "kingdom ministry",
+                        "icon": "/ministry.jpg",
+                        "to": "https://www.jw.org/en/library/kingdom-ministry/"
+                    },
+                    {
+                        "text": "jw broadcasting",
+                        "icon": "/jw.jpg",
+                        "to": "https://www.jw.org/en/library/videos/#en/categories/VODStudio"
+                    },
+                    {
+                        "text": "videos",
+                        "icon": "/videos.jpg",
+                        "to": "https://www.jw.org/en/library/videos/"
+                    },
+                    {
+                        "text": "music",
+                        "icon": "/music.jpg",
+                        "to": "https://www.jw.org/en/library/music-songs/"
+                    },
+                    {
+                        "text": "audio drama",
+                        "icon": "/audio.jpg",
+                        "to": "https://www.jw.org/en/library/audio-bible-dramas/"
+                    },
+                    {
+                        "text": "dramatic bible readings",
+                        "icon": "/dramatic.jpg",
+                        "to": "https://www.jw.org/en/library/dramatic-bible-readings/"
+                    },
+                    {
+                        "text": "online library",
+                        "icon": "/online.jpg",
+                        "to": "https://wol.jw.org/wol/finder?wtlocale=E"
+                    }
+                ],
+                "drop":false
+            },
+            {
+                "text": "NEWS",
+                "icon": "/web.jpg",
+                "to": "https://www.jw.org/en/news/",
+                "children": false,
+                "drop": false
+            },
+            {
+                "text": "ABOUT US",
+                "icon": "/about.jpg",
+                "to": "#",
+                "children": [
+                    {
+                        "text": "frequently asked questions",
+                        "icon": "/frequently.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/faq/"
+                    },
+                    {
+                        "text": "request a visit",
+                        "icon": "/request.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/request-a-visit/"
+                    },
+                    {
+                        "text": "contact us",
+                        "icon": "/contact.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/contact/"
+                    },
+                    {
+                        "text": "bethel tours",
+                        "icon": "/bethel.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/bethel-tours/"
+                    },
+                    {
+                        "text": "meetings",
+                        "icon": "/meetings.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/meetings/"
+                    },
+                    {
+                        "text": "memorial",
+                        "icon": "/memorial.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/memorial/"
+                    },
+                    {
+                        "text": "conventions",
+                        "icon": "/conventions.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/conventions/"
+                    },
+                    {
+                        "text": "activities",
+                        "icon": "/activities.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/activities/"
+                    },
+                    {
+                        "text": "experiences",
+                        "icon": "/experiences.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/experiences/"
+                    },
+                    {
+                        "text": "around the world",
+                        "icon": "/around.jpg",
+                        "to": "https://www.jw.org/en/jehovahs-witnesses/worldwide/"
+                    },
+                    {
+                        "text": "donations",
+                        "icon": "/donations.jpg",
+                        "to": "https://donate.jw.org/en"
+                    }
+                ],
+                "drop":false
+            },
+            {
+                "text": "Log In",
+                "icon": "/user.jpg",
+                "to": "https://hub.jw.org/home/en",
+                "children": false,
+                "drop":false
+            }
+        ]
+    },
+    "section1": {
+        "bg": "https://cms-imgp.jw-cdn.org/img/p/502000169/univ/art/502000169_univ_pnr_lg.jpg",
+        "title": "Are Bible Standards Outdated?",
+        "btn": {
+            "text": "Find Out",
+            "url": "https://www.jw.org/en/library/series/more-topics/what-is-right-wrong/"
+        }
+    },
+    "section2": {
+        "line1": {
+            "title": "Featured",
+            "btn": {"text":"See More","to": "https://www.jw.org/en/recent-feature-articles/"}
+            
+        },
+        "line2": [
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/2012655/univ/art/2012655_univ_lss_lg.jpg",
+                "title": "Does God Care About Women?"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/501100083/univ/art/501100083_univ_lss_lg.jpg",
+                "title": "Health Care—What God’s Kingdom Will Do"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/502016176/univ/art/502016176_univ_lss_lg.jpg",
+                "title": "Friendship or Romance?​—Part 1: What Signals Am I Receiving?"
+            }
+        ],
+        "line3": {
+            "boxa": {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1001070103/univ/art/1001070103_univ_sqr_lg.jpg",
+                "a": {
+                    "to": "https://www.jw.org/en/library/bible/study-bible/books/",
+                    "text": "Read the Bible Online"
+                },
+                "p": "This free study edition of the New World Translation includes pictures, footnotes, cross-references, and additional study tools."
+            },
+            "boxb": {
+                "h4": "See recently added videos, music, articles, and news.",
+                "a": {
+                    "to": "https://www.jw.org/en/whats-new/",
+                    "text": "See What’s New"
+                }
+            }
+        }
+    },
+    "section3": {
+        "title": "Select a Topic That Interests You",
+        "cards": [
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011202/univ/art/1011202_univ_pnr_md.jpg",
+                "text": "Bible Questions Answered",
+                "to": "https://www.jw.org/en/bible-teachings/questions/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011556/univ/art/1011556_univ_pnr_md.jpg",
+                "text": "Peace & Happiness",
+                "to": "https://www.jw.org/en/bible-teachings/peace-happiness/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011580/univ/art/1011580_univ_pnr_md.jpg",
+                "text": "Faith in God",
+                "to": "https://www.jw.org/en/bible-teachings/faith-in-god/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011205/univ/art/1011205_univ_pnr_md.jpg",
+                "text": "Marriage & Family",
+                "to": "https://www.jw.org/en/bible-teachings/family/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011206/univ/art/1011206_univ_pnr_md.jpg",
+                "text": "Teens & Young Adults",
+                "to": "https://www.jw.org/en/bible-teachings/teenagers/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011204/univ/art/1011204_univ_pnr_md.jpg",
+                "text": "Videos and Activities for Children",
+                "to": "https://www.jw.org/en/bible-teachings/children/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011552/univ/art/1011552_univ_pnr_md.jpg",
+                "text": "Science & the Bible",
+                "to": "https://www.jw.org/en/bible-teachings/science/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011569/univ/art/1011569_univ_pnr_md.jpg",
+                "text": "History & the Bible",
+                "to": "https://www.jw.org/en/bible-teachings/history/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011233/univ/art/1011233_univ_pnr_md.jpg",
+                "text": "Frequently Asked Questions",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/faq/"
+            }
+        ],
+        "cards2": [
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011722/univ/art/1011722_univ_sqr_lg.jpg",
+                "title": "Try Our Bible Course",
+                "text": "Get a free interactive Bible study with one-on-one instruction.",
+                "to": "https://www.jw.org/en/bible-teachings/guided-bible-study-course/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/502012232/univ/art/502012232_univ_sqr_lg.jpg",
+                "title": "Request a Visit",
+                "text": "Discuss a Bible question, or learn more about Jehovah’s Witnesses.",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/request-a-visit/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1011229/univ/art/1011229_univ_sqr_lg.jpg",
+                "title": "Attend a Meeting",
+                "text": "Learn about our meetings. Find a meeting location near you.",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/meetings/"
+            }
+        ]
+    },
+    "section4": {
+        "title": "Videos",
+        "a": {
+            "text": "See All",
+            "to": "https://www.jw.org/en/library/videos/"
+        },
+        "hero": {
+            "title": "What Is the Purpose of Life?",
+            "text": "The answer can help you to find real happiness and meaning in life.",
+            "a": {
+                "text": "Watch This Video",
+                "to": "https://www.jw.org/en/library/videos/ebtv/what-is-purpose-of-life/"
+            },
+            "bg_lg": "https://cms-imgp.jw-cdn.org/img/p/502000335/univ/art/502000335_univ_lsr_lg.jpg",
+            "bg_sm": "https://cms-imgp.jw-cdn.org/img/p/502000335/univ/art/502000335_univ_lss_lg.jpg"
+        },
+        "cards": [
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1102013336/univ/art/1102013336_univ_lss_lg.jpg",
+                "title": "Stealing is bad",
+                "to": "https://www.jw.org/en/library/videos/become-jehovahs-friend-2/stealing-is-bad/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/502018196/univ/art/502018196_univ_lss_lg.jpg",
+                "title": "The Seahorse's Tail-was it Designed?",
+                "to": "https://www.jw.org/en/bible-teachings/science/was-it-designed/seahorse-tail/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/501100006/univ/art/501100006_univ_lss_lg.jpg",
+                "title": "The Arrival of the Spanish New World Translation",
+                "to": "https://www.jw.org/en/library/series/more-topics/nwt-bible-spanish-revised-release/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/502014311/univ/art/502014311_univ_lss_lg.jpg",
+                "title": "What Happens at a Bible Study?",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/request-a-visit/video-bible-study/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/502014315/univ/art/502014315_univ_lss_lg.jpg",
+                "title": "What Happens at a Kingdom Hall?",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/meetings/video-kingdom-hall/"
+            },
+            {
+                "img": "https://cms-imgp.jw-cdn.org/img/p/1102017423/univ/art/1102017423_univ_lss_lg.jpg",
+                "title": "Jehovah's Witnesses-Who are we?",
+                "to": "https://www.jw.org/en/library/videos/intros-for-the-ministry/jehovahs-witnesses-who-are-we-intro/"
+            }
+        ]
+    },
+    "section5": {
+        "title": "Jehovah’s Witnesses—Who Are We?",
+        "bg": "https://www.jw.org/assets/ct/ebc521c5d3/images/home-bottom.jpg",
+        "boxa": {
+            "p": "We come from hundreds of ethnic and language backgrounds, yet we are united by common goals. Above all, we want to honor <a className='text-mblue ' href='https://www.jw.org/en/bible-teachings/questions/gods-name/'>Jehovah</a>, the God of the Bible and the Creator of all things. We do our best to imitate <a className='text-mblue ' href='https://www.jw.org/en/bible-teachings/questions/jesus-son-of-god/'>Jesus Christ</a> and are proud to be called <a className='text-mblue ' href='https://www.jw.org/en/jehovahs-witnesses/faq/are-jehovahs-witnesses-christians/'>Christians</a>. Each of us regularly spends time helping people learn about the Bible and <a className='text-mblue ' href='https://www.jw.org/en/bible-teachings/questions/what-is-gods-kingdom/'>God’s Kingdom</a>. Because we witness, or talk, about Jehovah God and his Kingdom, we are known as <a className='text-mblue ' href='https://www.jw.org/en/jehovahs-witnesses/faq/name-jehovahs-witnesses/'>Jehovah’s Witnesses</a>.  <span className=' mt-[27px] block ' > Explore our site. <a className='text-mblue ' href='https://www.jw.org/en/library/bible/' > Read the Bible online. </a> Learn more about us and <a className='text-mblue ' href='https://www.jw.org/en/jehovahs-witnesses/faq/' >our beliefs</a>. </span> "
+        },
+        "boxb": [
+             {
+                "text": "Jehovah’s Witnesses​—Who Are We?",
+                "to": "https://www.jw.org/en/library/videos/intros-for-the-ministry/jehovahs-witnesses-who-are-we-intro/",
+                "icon": "/play.svg"
+            },
+             {
+                "text": "What Do Jehovah’s Witnesses Believe?",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/faq/jehovah-witness-beliefs/",
+                "icon": false
+            },
+             {
+                "text": "How Is the Work of Jehovah’s Witnesses Financed?",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/faq/donations-worldwide-work-finances-money/",
+                "icon": false
+            }
+        ]
+    },
+    "footer": {
+        "title": "JW.ORG<sup className='' >®</sup> / <span className='font-bold' >OFFICIAL WEBSITE OF JEHOVAH’S WITNESSES</span>",
+        "boxa": [
+            {
+                "icon": "/bibleq.jpg",
+                "text": "Bible Teachings",
+                "to": "https://www.jw.org/en/bible-teachings/"
+            },
+            {
+                "icon": "/bibleq.jpg",
+                "text": "bible questions answered",
+                "to": "https://www.jw.org/en/bible-teachings/questions/"
+            },
+            {
+                "icon": "/biblev.jpg",
+                "text": "bible verses explained",
+                "to": "https://www.jw.org/en/bible-teachings/bible-verses/"
+            },
+            {
+                "icon": "/biblesc.jpg",
+                "text": "bible study course",
+                "to": "https://www.jw.org/en/bible-teachings/guided-bible-study-course/"
+            },
+            {
+                "icon": "/biblet.jpg",
+                "text": "bible study tools",
+                "to": "https://www.jw.org/en/bible-teachings/bible-study-tools/"
+            },
+            {
+                "icon": "/peace.jpg",
+                "text": "peace & happiness",
+                "to": "https://www.jw.org/en/bible-teachings/peace-happiness/"
+            },
+            {
+                "icon": "/marriage.jpg",
+                "text": "marriage & family",
+                "to": "https://www.jw.org/en/bible-teachings/family/"
+            },
+            {
+                "icon": "/teens.jpg",
+                "text": "teens & young adults",
+                "to": "https://www.jw.org/en/bible-teachings/teenagers/"
+            },
+            {
+                "icon": "/children.jpg",
+                "text": "children",
+                "to": "https://www.jw.org/en/bible-teachings/children/"
+            },
+            {
+                "icon": "/faith.jpg",
+                "text": "faith in god",
+                "to": "https://www.jw.org/en/bible-teachings/faith-in-god/"
+            },
+            {
+                "icon": "/science.jpg",
+                "text": "science & the bible",
+                "to": ""
+            },
+            {
+                "icon": "/history.jpg",
+                "text": "history & the bible",
+                "to": "https://www.jw.org/en/bible-teachings/history/"
+            }
+        ],
+        "boxb": [
+            {
+                "text": "Library",
+                "icon": "/bibles.jpg",
+                "to": "https://www.jw.org/en/library/"
+            },
+            {
+                "text": "bibles",
+                "icon": "/bibles.jpg",
+                "to": "https://www.jw.org/en/library/bible/"
+            },
+            {
+                "text": "magazines",
+                "icon": "/magazines.jpg",
+                "to": "https://www.jw.org/en/library/magazines/"
+            },
+            {
+                "text": "books & brochure",
+                "icon": "/brochure.jpg",
+                "to": "https://www.jw.org/en/library/books/"
+            },
+            {
+                "text": "article series",
+                "icon": "/article.jpg",
+                "to": "https://www.jw.org/en/library/series/"
+            },
+            {
+                "text": "meeting workbooks",
+                "icon": "/meeting.jpg",
+                "to": "https://www.jw.org/en/library/jw-meeting-workbook/"
+            },
+            {
+                "text": "guildlines",
+                "icon": "guildlines.jpg",
+                "to": "https://www.jw.org/en/library/guidelines/"
+            },
+            {
+                "text": "kingdom ministry",
+                "icon": "/ministry.jpg",
+                "to": "https://www.jw.org/en/library/kingdom-ministry/"
+            },
+            {
+                "text": "jw broadcasting",
+                "icon": "/jw.jpg",
+                "to": "https://www.jw.org/en/library/videos/#en/categories/VODStudio"
+            },
+            {
+                "text": "videos",
+                "icon": "/videos.jpg",
+                "to": "https://www.jw.org/en/library/videos/"
+            },
+            {
+                "text": "music",
+                "icon": "/music.jpg",
+                "to": "https://www.jw.org/en/library/music-songs/"
+            },
+            {
+                "text": "audio drama",
+                "icon": "/audio.jpg",
+                "to": "https://www.jw.org/en/library/audio-bible-dramas/"
+            },
+            {
+                "text": "dramatic bible readings",
+                "icon": "/dramatic.jpg",
+                "to": "https://www.jw.org/en/library/dramatic-bible-readings/"
+            },
+            {
+                "text": "online library",
+                "icon": "/online.jpg",
+                "to": "https://wol.jw.org/wol/finder?wtlocale=E"
+            }
+        ],
+        "boxc": [
+            {
+                "text": "News",
+                "icon": "/frequently.jpg",
+                "to": "https://www.jw.org/en/news/"
+            },
+            {
+                "text": "About Us",
+                "icon": "/frequently.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/"
+            },
+            {
+                "text": "frequently asked questions",
+                "icon": "/frequently.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/faq/"
+            },
+            {
+                "text": "request a visit",
+                "icon": "/request.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/request-a-visit/"
+            },
+            {
+                "text": "contact us",
+                "icon": "/contact.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/contact/"
+            },
+            {
+                "text": "bethel tours",
+                "icon": "/bethel.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/bethel-tours/"
+            },
+            {
+                "text": "meetings",
+                "icon": "/meetings.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/meetings/"
+            },
+            {
+                "text": "memorial",
+                "icon": "/memorial.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/memorial/"
+            },
+            {
+                "text": "conventions",
+                "icon": "/conventions.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/conventions/"
+            },
+            {
+                "text": "activities",
+                "icon": "/activities.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/activities/"
+            },
+            {
+                "text": "experiences",
+                "icon": "/experiences.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/experiences/"
+            },
+            {
+                "text": "around the world",
+                "icon": "/around.jpg",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/worldwide/"
+            }
+            
+        ],
+        "boxd": {
+            "cell1": [
+                {
+                  "text": "Request a Visit",
+                "to": "https://www.jw.org/en/jehovahs-witnesses/request-a-visit/"  
+                },
+                {
+                  "text": "Find a Meeting",
+                "to": "https://apps.jw.org/E_SRCHMTGMAPS"  
+                },
+                {
+                  "text": "Find a Convention",
+                "to": "https://apps.jw.org/E_SEARCHCONV"  
+                },
+                {
+                  "text": " What’s New",
+                "to": "https://www.jw.org/en/whats-new/"  
+                },
+                {
+                  "text": "Videos",
+                "to": "https://www.jw.org/en/library/videos/"  
+                },
+                {
+                  "text": "Search",
+                "to": "https://www.jw.org/en/search/"  
+                },
+                {
+                  "text": "Help",
+                "to": "https://www.jw.org/en/online-help/"  
+                },
+                {
+                  "text": "Medical Information for Clinicians",
+                "to": "https://www.jw.org/en/medical-library/"  
+                },
+                {
+                  "text": "Resources for Journalists",
+                "to": "https://www.jw.org/en/resources-for-journalists/"  
+                },
+                {
+                  "text": "Information for Government Officials",
+                "to": "https://www.jw.org/en/gov-resources/"  
+                }
+            ],
+            "cell2": [
+                {
+                    "text": "Donations",
+                    "icon": "/donate2.jpg",
+                    "to": "https://donate.jw.org/en"
+                }
+            ],
+            "cell3": [
+                {
+                    "text": "Watchtower ONLINE LIBRARY™",
+                    "icon": "/watchtower.jpg",
+                    "to": "https://wol.jw.org/wol/finder?wtlocale=E"
+                },
+                {
+                    "text": "JW Hub<sup>®</sup>",
+                    "icon": "/hub.jpg",
+                    "to": "https://hub.jw.org/home/en"
+                },
+                {
+                    "text": "JW Library<sup>®</sup>",
+                    "icon": "/appLogo.jpg",
+                    "to": "https://www.jw.org/en/online-help/jw-library/"
+                },
+                {
+                    "text": "JW Library Sign Language<sup>®</sup>",
+                    "icon": "/jSign.jpg",
+                    "to": "https://www.jw.org/en/online-help/jw-library-sign-language/"
+                },
+                {
+                    "text": "Watchtower Library",
+                    "icon": "/wLib.jpg",
+                    "to": "https://www.jw.org/en/online-help/watchtower-library/"
+                },
+                {
+                    "text": "JW Language<sup>®</sup>",
+                    "icon": "/jLang.jpg",
+                    "to": "https://www.jw.org/en/online-help/jw-language/"
+                }
+            ]
+        },
+        "last": "<a className='text-mblue3 hover:underline ' href='https://www.jw.org/open?docid=1011511&prefer=content' >Copyright</a> © <span> getFullYear() </span> Watch Tower Bible and Tract Society of Pennsylvania. <a className='text-mblue3 hover:underline ' href='https://www.jw.org/open?docid=1011511&prefer=content'>TERMS OF USE</a>  |  <a className='text-mblue3 hover:underline ' href='https://www.jw.org/open?docid=1011512&prefer=content'>PRIVACY POLICY</a>  | <a className='text-mblue3 hover:underline ' href='https://www.jw.org/open?docid=1011512&prefer=content'>PRIVACY SETTINGS</a>"
+    }
+}
