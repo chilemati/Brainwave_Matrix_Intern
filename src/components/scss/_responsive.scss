@@ -1,0 +1,24 @@
+@mixin mobile() {
+    @media screen and (min-width: 300px ) {
+        @content;
+    }
+}
+@mixin tablet() {
+    @media screen and (min-width: 700px ) {
+        @content;
+    }
+}
+@mixin desktop() {
+    @media screen and (min-width: 1000px ) {
+        @content;
+    }
+}
+@mixin anyScreen($breakpoint) {
+    @media screen and (max-width: $breakpoint ) {
+        @content;
+    }
+}
+
+// @include mobile{
+//     flex-direction: column;
+// }

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flexCenter {
+    @apply flex items-center justify-center ;
+  }
+  .flexCol {
+    @apply flex items-center justify-center flex-col ;
+  }
+  .flexCenter {
+    @apply flex items-center justify-center ;
+  }
+  .flexBetween {
+    @apply flex items-center justify-between ;
+  }
+  .headingBorder {
+    @apply border-[8px] border-black ;
+  }
+}
