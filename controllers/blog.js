@@ -173,7 +173,7 @@ module.exports.blog_like = (req, res) => {
     ) {
       Blog.findOneAndUpdate(
         { _id: id },
-        { $addToSet: { comments: { img, content, name, date: TandD() } } },
+        { $addToSet: { comments: {  content, name, date: TandD() } } },
         { returnDocument: "after" }
       )
         .then((rep) => {
