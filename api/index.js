@@ -8,7 +8,7 @@ var bodyParser = require('body-parser')
 const cors = require("cors");
 const helmet = require('helmet');
 
-const origin = ["http://localhost:5173","https://cohort4-2024.vercel.app"]; 
+const origin = ["http://localhost:5173","https://brainwave-matrix-intern-task2-orcin.vercel.app"]; 
 
 
 const { PORT} = process.env
