@@ -7,6 +7,10 @@ const blogSchema = new Schema({
     type: String,
     required: [true,'Please provide a blog title'],
   },
+  email: {
+    type: String,
+    required: [true,'Please provide a valid email'],
+  }, 
   body: {
     type: String,
     required: [true,'Please provide a blog content'],

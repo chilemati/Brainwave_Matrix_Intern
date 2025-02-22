@@ -40,7 +40,6 @@ module.exports.user_login = async(req, res) => {
      if(info.email === email) {
         let check = await unHash(password,info.password);
         let checkRole = await unHash(ROLE,info.role);
-        console.log(checkRole,role,ROLE)
         if(checkRole) {
             role = ROLE;
         }

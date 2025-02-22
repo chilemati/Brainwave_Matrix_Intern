@@ -7,9 +7,9 @@ const { isAdmin } = require('../middlewares/isAdmin');
 const blogRouter = express.Router();
 
 blogRouter.get('/blogs',blog_get);
-blogRouter.post('/blogs',validateBlog,isAdmin,blog_post);
-blogRouter.patch('/blogs',isAdmin,blog_patch);
-blogRouter.delete('/blogs',isAdmin,blog_delete);
+blogRouter.post('/blogs',validateBlog,isLoggedin,blog_post);
+blogRouter.patch('/blogs',isLoggedin,blog_patch);
+blogRouter.delete('/blogs',isLoggedin,blog_delete);
 blogRouter.get('/blogs/:id',blog_single);
 blogRouter.post("/blog_like", blog_like);
 blogRouter.post("/blog_unlike", blog_unlike);
