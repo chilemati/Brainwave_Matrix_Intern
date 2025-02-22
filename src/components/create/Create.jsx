@@ -68,7 +68,7 @@ const Create = () => {
         onSubmit={(values) => {
           // same shape as initial values
           info("Please Wait...");
-          let upd = { ...values };
+          let upd = { ...values,email:User.data.email };
           console.log(upd)
 
           axios
