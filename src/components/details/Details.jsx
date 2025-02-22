@@ -227,7 +227,7 @@ const Details = () => {
             </div>
             </>
           )}
-          {blog && User.data.email === blog.email && (
+          {   blog && User.data.email === blog.email && (
             <>
               <div className="flexCenter my-5 gap-3 text-3xl ">
                 <MdDeleteForever

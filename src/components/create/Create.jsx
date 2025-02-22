@@ -69,7 +69,6 @@ const Create = () => {
           // same shape as initial values
           info("Please Wait...");
           let upd = { ...values,email:User.data.email };
-          console.log(upd)
 
           axios
             .post(baseUrl + "/blogs", upd, {
