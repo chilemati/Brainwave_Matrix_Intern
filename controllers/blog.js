@@ -13,8 +13,8 @@ module.exports.blog_get=(req,res)=> {
     })
 }
 module.exports.blog_post=(req,res)=> {
-    const {title,body,author} = req.body; // get title and body from frontend
-    let upd = {title,body,author}; // add to an object
+    const {title,body,author,email} = req.body; // get title and body from frontend
+    let upd = {title,body,author,email}; // add to an object
     const toDb = new Blog(upd); // creating a new model to be saved on db
     toDb.save() // saving to db
     .then(resp=> {
