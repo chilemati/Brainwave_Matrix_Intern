@@ -34,7 +34,10 @@ const Blogs = () => {
             {
                 blog && blog.map((each)=>(
                     <div key={each._id} className="w-full  ">
-                        <h5 onClick={()=> redir('/blogs/'+each._id)} className="text-base ps-2 rounded-xl cursor-pointer w-[100%] hover:text-red-700 font-semibold py-4 shadow "> {each.title} | {each.author} </h5>
+                        <h5 onClick={()=> redir('/blogs/'+each._id)} className="text-base ps-2 rounded-xl cursor-pointer w-[100%] hover:text-red-700 font-semibold py-4 shadow flexBetween flex-col md:flex-row flex-wrap  "> <span className="">
+                        {each.title}</span> 
+                        <span className="text-[12px] italic pe-3 font-Montserrat "> {each.author} </span>
+                        </h5>
                        
                     </div>
                 ))

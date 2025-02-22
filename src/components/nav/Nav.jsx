@@ -32,7 +32,7 @@ const MenuList =()=> {
                }
                 
                {
-                User.data.role === 'Admin' || 'normal' &&  <Link  className='text-black border-b-[1px] border-b-black text-nowrap p-3 block w-full md:text-white  font-bold hover:underline ' to="/create"> Create Blog </Link>
+                (User.data.role === 'Admin' || User.data.role ==='normal') &&  <Link  className='text-black border-b-[1px] border-b-black text-nowrap p-3 block w-full md:text-white  font-bold hover:underline ' to="/create"> Create Blog </Link>
                }
                {
                 User.isLoggedIn &&  <Link onClick={()=> handleSignout()} className='text-black border-b-[1px] border-b-black text-nowrap p-3 block w-full md:text-white font-bold hover:underline ' to="#"> Signout </Link>
